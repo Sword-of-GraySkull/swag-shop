@@ -4,7 +4,7 @@ var cors = require('cors');
 var bodyParser = require('body-parser');
 var mongoose = require('mongoose');
 useNewUrlParser = true;
-var db = mongoose.connect('mongodb://localhost/swag-shop', { useNewUrlParser: true, useUnifiedTopology: true });
+var db = mongoose.connect('mongodb+srv://swag-shop.mquh0.mongodb.net/swag-shop', { useNewUrlParser: true, useUnifiedTopology: true });
 
 var Product = require('./model/product');
 var WishList = require('./model/wishlist');

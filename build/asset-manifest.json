@@ -1,0 +1,23 @@
+{
+  "files": {
+    "main.css": "/swag-shop-web/static/css/main.dea77f71.chunk.css",
+    "main.js": "/swag-shop-web/static/js/main.d147dd11.chunk.js",
+    "main.js.map": "/swag-shop-web/static/js/main.d147dd11.chunk.js.map",
+    "runtime-main.js": "/swag-shop-web/static/js/runtime-main.ac22ad79.js",
+    "runtime-main.js.map": "/swag-shop-web/static/js/runtime-main.ac22ad79.js.map",
+    "static/js/2.d78ded81.chunk.js": "/swag-shop-web/static/js/2.d78ded81.chunk.js",
+    "static/js/2.d78ded81.chunk.js.map": "/swag-shop-web/static/js/2.d78ded81.chunk.js.map",
+    "index.html": "/swag-shop-web/index.html",
+    "precache-manifest.36572eb72b82047d5b668fd764e6057c.js": "/swag-shop-web/precache-manifest.36572eb72b82047d5b668fd764e6057c.js",
+    "service-worker.js": "/swag-shop-web/service-worker.js",
+    "static/css/main.dea77f71.chunk.css.map": "/swag-shop-web/static/css/main.dea77f71.chunk.css.map",
+    "static/js/2.d78ded81.chunk.js.LICENSE.txt": "/swag-shop-web/static/js/2.d78ded81.chunk.js.LICENSE.txt",
+    "static/media/logo.svg": "/swag-shop-web/static/media/logo.ee7cd8ed.svg"
+  },
+  "entrypoints": [
+    "static/js/runtime-main.ac22ad79.js",
+    "static/js/2.d78ded81.chunk.js",
+    "static/css/main.dea77f71.chunk.css",
+    "static/js/main.d147dd11.chunk.js"
+  ]
+}

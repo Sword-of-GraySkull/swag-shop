@@ -3,8 +3,15 @@ var app = express();
 var cors = require('cors');
 var bodyParser = require('body-parser');
 var mongoose = require('mongoose');
-useNewUrlParser = true;
-var db = mongoose.connect('mongodb+srv://swag-shop.mquh0.mongodb.net/swag-shop', { useNewUrlParser: true, useUnifiedTopology: true });
+var uri = "mongodb+srv://k7:password888@swag-shop.mquh0.mongodb.net/swag-shop?retryWrites=true&w=majority";
+
+mongoose.connect(uri, {
+    useNewUrlParser: true,
+    useUnifiedTopology: true
+}).then(() => {
+    console.log("mongodb connected...")
+})
+.catch( err => console.log(err))
 
 var Product = require('./model/product');
 var WishList = require('./model/wishlist');
